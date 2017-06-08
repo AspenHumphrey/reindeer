@@ -30,8 +30,10 @@ function hohoho(reindeerColor, currentColor) {
 	hohohoElement.appendChild(hohohoElementDiv);
 
 
+
 	hoElementDiv.appendChild(hoElementNode);
-	hohohoElement.appendChild(hoElementDiv);
+	hoElement.appendChild(hoElementDiv);
+	
 
 }
 
