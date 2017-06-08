@@ -12,7 +12,7 @@ for (var i = 0; i < reindeerColor; i++) {
 	var currentReindeer = reindeer[i];
 	var currentColor = colors[i];
 
-	hohoho(reindeerColor, currentColor)
+	hohoho(reindeerColor, currentColor);
 
 }
 
@@ -28,6 +28,7 @@ function hohoho(reindeerColor, currentColor) {
 
 	hohohoElementDiv.appendChild(hohohoElementNode);
 	hohohoElement.appendChild(hohohoElementDiv);
+
 
 	hoElementDiv.appendChild(hoElementNode);
 	hohohoElement.appendChild(hoElementDiv);
